@@ -11,6 +11,3 @@ Team
 |                                [Louis Yvan](https://github.com/leaurix)                                |     
 
 ---
-<ul>
-    <li>Alcayde, Louis Yvan C.</li>
-</ul>
