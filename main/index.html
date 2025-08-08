@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Studio Blend - Creative Agency</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    .tucked-paragraph {
+      position: absolute;
+      top: 78%;
+      left: 55%;
+      transform: translateX(-10%);
+    }
+  </style>
+</head>
+<body class="bg-white font-[Inter] min-h-screen">
+
+<!-- Navigation -->
+
+  <nav class="w-full px-8 py-8 lg:px-16">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <div class="text-2xl font-semibold text-gray-900">studioblend</div>
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#" class="nav-link text-gray-700 font-medium">Services</a>
+        <a href="#" class="nav-link text-gray-700 font-medium">About Us</a>
+        <button class="discovery-btn text-gray-700 px-6 py-3 rounded-full font-medium">
+          Discovery Call →
+        </button>
+      </div>
+      <div class="md:hidden">
+        <button class="text-gray-700">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+<!-- Hero Section -->
+
+  <main class="px-8 py-16 lg:px-16 lg:py-24">
+    <div class="max-w-6xl mx-auto relative">
+
+      <!-- Heading -->
+
+  <h1 class="hero-text text-left text-4xl sm:text-5xl lg:text-6xl xl:text-7xl text-gray-900 leading-tight font-light relative">
+          <div class="pl-16">
+            blending <span class="font-semibold">strategy</span> and
+    </div>
+          <div>
+            <span class="italic font-semibold">creativity</span> into
+            <span class="cropped-gif mx-2">
+              <img src="assets/images/face.gif" alt="emoji gif" />
+            </span>
+
+            <span class="font-semibold">captivating</span>
+    </div>
+          <div class="pl-16">
+            digital <span class="font-semibold">brands</span>
+    </div>
+</h1>
+
+<!-- Paragraph tucked under 'captivating' and beside 'brand' -->
+
+      <p class="absolute left-1/2 transform -translate-x-[-15%] top-[calc(100%-3.25rem)] text-[11px] italic text-black-700 leading-snug max-w-[200px] text-center">
+        Take your brand to new heights and<br>
+        make a splash online. Studio Blend is<br>
+        your creative powerhouse-designing,<br>
+        marketing, and building your digital<br>
+        success story
+      </p>
+
+    </div>
+  </main>
+
+<!-- Image Collage Section -->
+<section class="image-collage-section">
+  <div class="image-collage">
+    <div class="image image-1"><img src="assets/images/img1.jpg" alt="Image 1" /></div>
+    <div class="image image-2"><img src="assets/images/img2.jpg" alt="Image 2" /></div>
+    <div class="image image-3"><img src="assets/images/img3.jpg" alt="Image 3" /></div>
+    <div class="image image-4"><img src="assets/images/img4.jpg" alt="Image 4" /></div>
+    <div class="image image-5"><img src="assets/images/img5.jpg" alt="Image 5" /></div>
+  </div>
+</section>
+
+
+<!-- About StudioBlend Section -->
+<section class="about-section">
+  <div class="about-left">
+    <h2>about<br><strong>studioblend</strong></h2>
+  </div>
+  <div class="about-right">
+    <p class="intro">
+      Where <span class="blue">strategy</span> meets <span class="orange">creativity</span> to<br>
+      <em>build digital impact</em>
+    </p>
+    <p class="description">
+      We are a team of creative strategists and designers dedicated to building brands with clarity, purpose, and precision. 
+      At the core of our work is a belief in thoughtful design and strategic thinking — a seamless blend that transforms ideas into impact. 
+      From identity to execution, we craft every detail with intention, helping brands stand out with meaning and consistency in the digital space.
+    </p>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="px-8 py-16 lg:px-16 lg:py-24 bg-white">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+
+    <!-- Left Side - JPG Illustration -->
+    <div class="flex justify-center">
+      <!-- Checkerboard Background with Image Inside -->
+      <div class="w-80 h-96 rounded-2xl overflow-hidden relative"
+           style="background: repeating-conic-gradient(
+                    from 0deg,
+                    #3b82f6 0deg 90deg,
+                    #f8fafc 90deg 180deg,
+                    #3b82f6 180deg 270deg,
+                    #f8fafc 270deg 360deg
+                  ); background-size: 30px 30px;">
+        <img src="assets/images/bear.jpg"
+             alt="Bear Illustration"
+             class="w-full h-full object-cover" />
+      </div>
+    </div>
+
+    <!-- Right Side - Services Content -->
+  <div class="services">
+    <h1 class="title">our <br> <span>services</span></h1>
+
+    <!-- Digital Marketing -->
+    <div class="service-block">
+      <div class="service-header">
+        <h2>Digital Marketing</h2>
+        <span class="arrow">↗</span>
+      </div>
+    <div class="divider"></div>
+      
+
+      <div class="tags">
+        <button>SEO</button>
+        <button>Paid Ads</button>
+        <button>Social Media Marketing</button>
+      </div>
+
+      <div class="description">
+        <p>Boost your online presence and take one step ahead of the competition through campaigns that generate measurable results.</p>
+        <p>In today’s digital era, effective digital marketing strats are crucial to thrive in the online landscape. From placing your site at the top of search engines to increasing social media engagement, we’ll help you generate leads that convert into sales.</p>
+      </div>
+      <div class="service-block"></div>
+    </div>
+
+    <!-- Creative Design -->
+    <div class="service-block">
+      <div class="service-header">
+        <h2>Creative Design</h2>
+        <span class="arrow">↗</span>
+      </div>
+      <div class="divider"></div>
+    </div>
+
+    <!-- Creative Production -->
+    <div class="service-block">
+      <div class="service-header">
+        <h2>Creative Production</h2>
+        <span class="arrow">↗</span>
+      </div>
+      <div class="divider"></div>
+    </div>
+
+    <!-- Web Development -->
+    <div class="service-block">
+      <div class="service-header">
+        <h2>Web Development</h2>
+        <span class="arrow">↗</span>
+      </div>
+      <div class="divider"></div>
+    </div>
+  </div>
+</div>
+
+
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
