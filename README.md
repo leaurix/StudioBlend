@@ -1,7 +1,7 @@
 # STUDIO BLEND
 
 <p align="center">
-    <img src=" " width="512" height="512"/>
+    <img src="https://github.com/leaurix/StudioBlend/blob/main/Services/6.png" width="512" height="512"/>
 </p>
 
 ## 👨‍💻 Development Team
