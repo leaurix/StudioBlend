@@ -1,8 +1,5 @@
 Website
 
-<p align="justify">
-Team
-</p>
 
 ## 👨‍💻 Development Team
 
